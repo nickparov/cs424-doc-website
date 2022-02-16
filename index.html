@@ -1,140 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <style>
-      .name-link_part {
-        font-weight: bold;
-        padding-bottom: 10px;
-      }
-    </style>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
-    <title>cs424-Mykyta-Parovyi</title>
-  </head>
-  <body>
-    <div class="container mt-5 mb-5 pb-5">
-      <h1>CS 424 Spring 2022</h1>
-      <hr class="my-4" />
-      <h3>General Information</h3>
+  <style>
+    .name-link_part {
+      font-weight: bold;
+      padding-bottom: 10px;
+    }
+  </style>
+
+  <title>cs424-Mykyta-Parovyi</title>
+</head>
+
+<body>
+  <div class="container mt-5 mb-5 pb-5">
+    <h1>CS 424 Spring 2022</h1>
+    <hr class="my-4" />
+    <h3>General Information</h3>
+    <ul>
+      <li>Mykyta Parovyi</li>
+      <li>669375239</li>
+      <li>mparov2@uic.edu</li>
+    </ul>
+    <hr class="my-4" />
+    <h3>Projects & Materials</h3>
+    <ul>
+      <li>
+        <a href="https://mparov2.shinyapps.io/evlweatherforr_2/">Week 2 shiny web evl weather app</a>
+      </li>
+      <li>
+        <a href="https://mparov2.shinyapps.io/ThreeStationsAPP/">Project 1 shiny three stations data application.</a>
+      </li>
+      <li><a href="./project1.html">Project 1 Proj Description</a></li>
+    </ul>
+    <hr class="my-4" />
+    <h3>Group Metrics & Selected Solution</h3>
+    <ol>
+      <li class="mt-4 name-link_part">
+        Mykyta's Solution: <a href="https://mparov2.shinyapps.io/ThreeStationsAPP/">Link</a>
+      </li>
+      <img src="./img1.png" width="60%" class="img-thumbnail" alt="" /><br><br>
       <ul>
-        <li>Mykyta Parovyi</li>
-        <li>669375239</li>
-        <li>mparov2@uic.edu</li>
+        <li> We liked how each station has designated columns adjacent to each other. This makes it easy for users to
+          look at a
+          row and have an immediate comparison based on which visualization the user is focusing on (by day, weekday,
+          month,
+          or year). </li>
+        <li> In addition, having all of the graphs on the page allows users to deal with minimal input, which in this
+          case, all
+          they have to do is choose the year that they want for each station. </li>
+        <li> Lastly, they separated tables on a separate tab. I think this implementation has its strengths. This allows
+          users
+          to focus on either visualization, or data through the tables. </li>
+        <li> All tables are in one place and the graphs on their own tab which makes it easier to look at.
+          The controls are pretty intuitive as they are labeled and it is easy to know which specific set of graphs
+          should
+          plot data for the selected year at each station. </li>
+        <li> It was also a nice idea to flip the bar chart of daily ridership, since that way it’s easier to see how
+          ridership
+          changes throughout the year.</li>
+        <li> Most solutions show the ridership data on a horizontal bar chart, but a lot of the
+          details are lost when done this way, so I think it was a pretty creative way to flip the chart vertically .
+        </li>
+        <li> Another positive thing about flipping the bar chart vertically is that generally, vertical space is the
+          most
+          common way to expand space on an application.</li>
+        <li> Graphing Each Month / Day vertically allows a more conventional
+          navigation for a user when there are a lot of entries for that data set.</li>
       </ul>
-      <hr class="my-4" />
-      <h3>Projects & Materials</h3>
+
+
+
+
+
+
+
+
+
+
+
+      <li class="mt-4 name-link_part">
+        Ariadna's Solution:
+        <a href="https://aferna37.shinyapps.io/chicago_l_subway/">Link</a>
+      </li>
+      <img src="./selected_solution.png" width="60%" class="img-thumbnail" alt="" /><br><br>
       <ul>
         <li>
-          <a href="https://mparov2.shinyapps.io/evlweatherforr_2/"
-            >Week 2 shiny web evl weather app</a
-          >
+          Good segmentation on the fluid page layouts. This gives a uniform look to each station’s visualizations.</li>
+        <li>
+          I also think it’s a good idea that each of the bar graphs is paired with their data table form below. This
+          allows users
+          to quickly navigate through specific data if closely examining a specific part of the bar graph. </li>
+        <li>
+          I also think it was a good idea to visualize 2 stations, because realistically, users can probably only
+          effectively compare 2 sets
+          of data at a time. In addition, the amount of user input needed is minimal, which makes usability much
+          simpler.
         </li>
         <li>
-          <a href="https://mparov2.shinyapps.io/ThreeStationsAPP/"
-            >Project 1 shiny three stations data application.</a
-          >
+          The color palette chosen for each graph was well chosen. The three different colors have enough distinction
+          where
+          users will not confuse one for the other.
         </li>
-        <li><a href="./project1.html">Project 1 Proj Description</a></li>
+        <li> It’s also good that each color is assigned to a specific station, rather
+          than based on visualization type. This allows users to quickly associate a station to a specific color which
+          aides
+          them in comparing data between the stations. </li>
+        <li>
+        </li>
+        <li>
+          The layout of all the graphs and tables makes comparisons quick and easy, switching stations is placed in a
+          good
+          spot.
+        </li>
       </ul>
-      <hr class="my-4" />
-      <div class="row">
-        <div class="col-6">
-          <h3>Group Metrics & Selected Solution</h3>
-          <ol>
-            <li class="mt-4 name-link_part">
-              Mykyta's Solution: <a href="https://mparov2.shinyapps.io/ThreeStationsAPP/">Link</a>
-            </li>
-            I like how each station has designated columns adjacent to each
-            other. This makes it easy for users to look at a row and have an
-            immediate comparison based on which visualization the user is
-            focusing on (by day, weekday, month, or year). In addition, having
-            all of the graphs on the page allows users to deal with minimal
-            input, which in this case, all they have to do is choose the year
-            that they want for each station. All tables are in one place and the
-            graphs on their own tab which makes it easier to look at. It was
-            also a nice idea to flip the bar chart of daily ridership, since
-            that way it’s easier to see how ridership changes throughout the
-            year.
-            <li class="mt-4 name-link_part">
-              Ariadna's Solution:
-              <a href="https://aferna37.shinyapps.io/chicago_l_subway/">Link</a>
-            </li>
-            Good segmentation on the fluid page layouts. This gives a uniform
-            look to for each station’s visualizations. I also think it’s a good
-            idea that each of the bar graph is paired with their data table form
-            below. This allows users to quickly navigate through specific data
-            if closely examining a specific part of the bar graph. I also think
-            it was a good idea to visualize 2 stations, because realistically,
-            users can probably only effectively compare 2 sets of data at a
-            time. In addition, the amount of user input needed is minimal, which
-            makes usability much simpler. The layout of all the graphs and
-            tables makes comparisons quick and easy, switching stations is
-            placed in a good spot.
 
-            <li class="mt-4 name-link_part">Elliot's Solution: <a href="https://kellio23.shinyapps.io/CS424Project1kellio23/">Link</a></li>
-            It’s nice that it has a lot of controls and the user is able to
-            select exactly what it wants to appear on the screen, which can be
-            useful to avoid the website looking overcrowded -What I like about
-            this implementation of the project is that the user has a lot of
-            control on what visualization they want to appear on the screen.
-            This allows users to isolate the data they want to see without
-            getting distracted by other elements of the UI.
-            <li class="mt-4 name-link_part">Daniel's Solution: <a href="https://dasunc2.shinyapps.io/dasunc2_Project1_CS424/">Link</a></li>
-            It’s nice that everything is in one page, and individual controls
-            for each graph and that the user can choose which data tables to
-            look at. The colors for each station help with making the data clear
-            where it came from.
-          </ol>
-        </div>
-        <div class="col-6">
-          <h3>Selected Solution <a href="https://aferna37.shinyapps.io/chicago_l_subway/">Link</a></h3>
-          <img src="./selected_solution.png" width="100%" class="img-thumbnail" alt="" />
-          <p class="border p-3 mt-4">
-            <b>Why?</b>
-            Because for presentation purposes this solution is the best fit. <br>
-            It allows people to see the differences between stations much easier and more intuitive than the other ones.
-          </p>
-          <a href="https://aferna37.shinyapps.io/chicago_l_subway/" class="btn-block btn btn-info text-center">
-            <i class="bi bi-box-arrow-up-right"></i>
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+      <li class="mt-4 name-link_part">Elliot's Solution: <a
+          href="https://kellio23.shinyapps.io/CS424Project1kellio23/">Link</a></li>
+      <img src="./eliots.png" width="60%" class="img-thumbnail" alt="" /><br><br>
+      <ul>
+        <li>
+          It’s nice that it has a lot of controls and the user is able to select exactly what it wants to appear on the
+          screen, which can be useful to avoid the website looking overcrowded.</li>
+        <li>
+          The page is divided into the left and right region which makes it easier to compare different dataset for
+          different station or for the same station and comparing different yearsand plots, in addition to this, the
+          individual controls that let make a specific bar chart and table appear and disappear are useful and can be
+          more
+          useful, since a user can decided to focus on specific characteristic of the data and isolate only the data
+          that it
+          wants plotted or showed as a table.
+        </li>
+        <li> I also like how all the controls are out of the way from the space where the
+          graphs are being shown, and allows for greater space to be used for plotting.</li>
+        <li>
+
+          What I like about this implementation of the project is that the user has a lot of control on what
+          visualization
+          they want to appear on the screen. This allows users to isolate the data they want to see without getting
+          distracted by other elements of the UI.
+        </li>
+      </ul>
+
+
+      <li class="mt-4 name-link_part">Daniel's Solution: <a
+          href="https://dasunc2.shinyapps.io/dasunc2_Project1_CS424/">Link</a></li>
+      <img src="./daniel.png" width="60%" class="img-thumbnail" alt="" /><br><br>
+      <ul>
+        <li>
+          It’s nice that everything is in one page, and individual controls for each graph and that the user can choose
+          which data tables to look at.</li>
+        <li>
+          The colors for each station help with making the data clear where it came from. The
+          spacing of each station's representative graph makes for a clean layout.</li>
+        <li> Swapping years via the UI is quick with
+          minimal load times making it much easier to draw new comparisons after the initial loading.
+        </li>
+        <li> Each graph has a clear
+          label on top of it that updates as the years change, so it is always clear what data is being displayed.
+        </li>
+        <li>
+          Overall the app provides a very usable and intuitive interface, focusing on a single graph is easy and
+          bringing in the
+          others adds to that.
+        </li>
+        <li>The table functionality makes it so that you only look at them when specific numbers are
+          needed and swapping quickly between them provides the whole picture.
+        </li>
+        <li> Besides the functionality of these tables
+          they are also shown in a logical manner where they are sorted by what's relevant, such as years starting at
+          2001
+          and not the highest X count.
+        </li>
+        <li> The graphs y axis being consistent across the three graphs also makes the comparison
+          process fluid, O’hares traffic dominates the other two and the initial graphs really show that.
+        </li>
+      </ul>
+    </ol>
+    <hr>
+    <h3>Selected Solution <a href="https://aferna37.shinyapps.io/chicago_l_subway/">Link</a></h3>
+    <img src="./selected_solution.png" width="100%" class="img-thumbnail" alt="" />
+    <p class="border p-3 mt-4">
+      <b>Why?</b>
+      Because for presentation purposes this solution is the best fit. <br>
+      It allows people to see the differences between stations much easier and more intuitive than the other ones.
+    </p>
+    <a href="https://aferna37.shinyapps.io/chicago_l_subway/" class="btn-block btn btn-info text-center">
+      <i class="bi bi-box-arrow-up-right"></i>
+    </a>
+  </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
