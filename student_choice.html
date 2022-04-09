@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./project1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <style>
+        @keyframes img_anim {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes img_anim_reverse {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(20px);
+            }
+        }
+
+        .animated {
+            animation: img_anim 4s ease-out 0s infinite forwards;
+        }
+
+        .animated-reverse {
+            animation: img_anim_reverse 4s ease-out 0s infinite forwards;
+        }
+
+        .animated-delay-2s {
+            animation: img_anim 4s ease-out 2s infinite forwards;
+        }
+
+        .animated-delay-1s {
+            animation: img_anim 4s ease-out 1s infinite forwards;
+        }
+
+
+    </style>
+
+    <title>cs424 Student Choice</title>
+  </head>
+  <body>
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 pb-5">
+                <button id="GoBackBtn" class="btn btn-light"><i class="bi bi-caret-left-fill"></i> Go Back</button>
+                <h1 class="mt-5">Student Choice</h1>
+                <hr>
+                <div class="desc-section">
+                <!-- - Questions:
+                    - Maj of people are in a company (100 - 1000+) people in it. -> most people are working in big companies
+                    - Maj: 5-10y of experience.
+                    - Number of woman didn’t really grow according to this and previous year survey (most women are in Korea)
+                    - In 2020 majority knew all 90-100% of features whereas in 2021 may of people only know 70-80% of features.
+                    - Each year a new framework is being created 
+                    - Compare the use of technologies in 2021 and 2020 (such techs as: typescript, express, web pack and jest were on the rise a year ago and now they are even higher and better in 2021)
+                    - Direction in which the technology is inclined predicts its future state.
+                    - Conclusions are: 
+                        - Js is in a much better shape compared to its state in 2016
+                        - Typescript overall usage has increased over time (static type js) by 50%
+
+                - Demographics
+                    - Show Salary different views (By Experience) !!!
+                    - Show Features view
+                    - Technologies Changes Over Time view
+                    - Show Awards
+                    - Show Conclusions
+                - What’s bad?
+                    - Show other tools tab (Unclear UI and meaning of the horizontal graph (Rounds?!))
+                    - Coloring in the previous year’s demographics
+
+
+
+
+                * what is its purpose?
+                    * To observe the current trends in JS field that show in which direction in your field of study you should head and which you should avoid. 
+                * what is the data?
+                    * Answers collected from people that use Javascript language with various background experience, age and location.
+                * how was the data collected?
+                    * By giving people long survey with questions from around the world
+                * who are the users that this visualization was made for?
+                    * Developers that either want to start using JS or already using it as well as the other people that are just interested in researching this field for their own 
+                * what questions do people want to ask?
+                    * *list all tabs in state of js website + short description* 
+                    * *mention all the findings as questions here!*
+                * how can they find the answers with this tool?
+                    * Just by looking at the graph visualizations that are presented to them
+                * what works?
+                    * Advantages
+                * what needs improvement?
+                    * Disadvantages -->
+
+
+                    <h3 class="mt-5 mb-4">What is its purpose?</h3>
+
+                    <img src="./student_choice_1.png" alt="" class=" img-thumbnail  animated" width="49%" />
+                    <img src="./student_choice_2.png" alt="" class=" img-thumbnail animated-delay-1s" width="49%" />
+                    <p class="mt-2 mb-4 text-center small-desc-text">Some of the pages from Visualization</p>
+                    <p class="mt-3">
+                        The purpose of this visualization website is to reveal the current and past states of Javascript in the tech field so that you either as a developer or a non programmer person who is just interested in it would make some conclusions about Javascript language.
+                    </p>
+
+
+                    <h3 class="mt-5"><i class="bi bi-file-earmark-bar-graph"></i> What is the data?</h3>
+                    <p class="mt-3"><b>Link</b> to the visualization <a href="https://2021.stateofjs.com/en-US/">Javascript Findings 2021</a></p> 
+                    <p class="mt-3">
+                       The data is mainly about Javascript and people that use it which includes the following information: Demographics, Features, Libraries and their Opinions about Language overall.
+                    </p>
+
+                    <h3 class="mt-5"><i class="bi bi-search"></i> How was the data collected?</h3>
+                    <p class="mt-3">By creating a huge survey and passing it to people around the world.</p>
+                    
+                    <h3 class="mt-5"><i class="bi bi-people"></i> Who are the users that this visualization was made for?</h3>
+                    <p class="mt-3">
+                        This data will be really useful for anybody. <br>
+                        <ul>
+                            <li>If you are not familiar to this tech field, you would find some interesting facts such as what is the age of a regular programmer and what is the gender distribution.</li>
+                            <li>If you are a programmer and interested in Javascript language and its use cases, you will find information about what libraries are popular and mostly used.</li>
+                            <li>If you are a skilled developer who are using JS on regular basis, you would find interesting trends and changes to the tech overall and also other's opinion on this field.</li>
+                        </ul>
+                        
+                        
+                        
+                    </p>
+
+                    <h3 class="mt-5"><i class="bi bi-question-circle"></i> What questions do people want to ask? How to find answers?</h3>
+                    <p class="mt-3">
+                        <ol class="ml-0 pl-0"> 
+                            <li class="my-4">Do majority of people work in a big companies? Or they prefer to work in small-medium ones?</li>
+                            <img src="./company_size.png" alt="" class="img-thumbnail">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/demographics/#company_size"><i class="bi bi-box-arrow-up-right"></i></a>
+
+                            <li class="my-4">How many years of experience do majority of people have?</li>
+                            <img src="./experience_years.png" alt="" class="img-thumbnail">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/demographics/#years_of_experience"><i class="bi bi-box-arrow-up-right"></i></a> 
+                            
+                            <li class="my-4">Is the number of women grow with years or no?</li>
+                            <h4>2021</h4>
+                            <img src="./gender_1.png" alt="" class="img-thumbnail">
+
+                            <h4 class="mt-2">2020</h4>
+                            <img src="./gender_2.png" alt="" class="img-thumbnail">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/demographics/#gender"><i class="bi bi-box-arrow-up-right"></i></a>
+                            <li class="my-4">
+                                     Do majority know every feature on the survey? Did they know all of it a year ago? 
+                                <br> What's the trend of knowing every feature? Is it growing or decreasing?
+                            </li>
+                            
+                            <h4>2021</h4>
+                            <img src="./knowledge_score_1.png" alt="" class="img-thumbnail">
+                            <h4 class="mt-2">2020</h4>
+                            <img src="./knowledge_score_2.png" alt="" class="img-thumbnail">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/features"><i class="bi bi-box-arrow-up-right"></i></a>
+                            
+                            <li class="my-4">Are there any new technologies in the field? What are they and how people like them overall?</li>
+                            <img src="./fe_1.png" alt="" class="img-thumbnail">
+                            <img src="./fe_2.png" alt="" class="img-thumbnail mt-2">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/libraries/front-end-frameworks"><i class="bi bi-box-arrow-up-right"></i></a>
+                            
+                            <li class="my-4">What about those technologies that were created in the past, are they still on the rise? Or they are not used? Is there any ability to see which one is going to thrive and which one is not?</li>
+                            
+                            <img src="./Technology_graph.png" alt="" class="img-thumbnail">
+                            <a class=" btn btn-secondary mt-3" target=”_blank” href="https://2021.stateofjs.com/en-US/libraries"><i class="bi bi-box-arrow-up-right"></i></a>
+                            
+                            
+                        </ol>
+                    </p>
+
+                    <h3 class="mt-5"><i class="bi bi-clock-history"></i> What works? What needs improvement?</h3>
+                        <h4 class="mt-3">Excessive information on the unintuitive graph.</h4>
+                        <img src="./bad_1.png" alt="" class="img-thumbnail">
+
+                        <h4 class="mt-3">Unclear Rounds meaning and Confusing Coloring.</h4>
+                        <img src="./bad_2.png" alt="" class="img-thumbnail">
+                </div>
+            </div>
+            <button id="scrollTopBtn" class="btn-block btn btn-light mb-3">Scroll Up</button>
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        $("#scrollTopBtn").on('click', (e) => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        $("#GoBackBtn").on("click", (e) => {
+            e.preventDefault()
+            window.location.href = "https://nickparov.github.io/cs424-doc-website/";
+        })
+    </script>
+  </body>
+</html>
